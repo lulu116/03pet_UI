@@ -1,0 +1,157 @@
+    #backtohome {
+        font-weight: bolder;
+        position: fixed;
+        left: -90px;
+        bottom: 50px;
+        border: 1px solid #242424;
+        line-height: 30px;
+        font-size: 16px;
+        padding: 5px;
+        background: white;
+    }
+    
+    #backtohome span {
+        padding: 0 5px;
+    }
+    
+    #mymestitle {
+        height: 90px;
+        border: 1px solid #242424;
+        background: url('../images/cattitilebak.jpg');
+    }
+    
+    #mymesbottom {
+        height: 100px;
+        background: #F3F3F3;
+    }
+    
+    #mesbody {
+        background: #F3F3F3;
+    }
+    
+    .mymestype {
+        margin-top: 100px;
+    }
+    
+    .mymestype>div {
+        font-weight: bold;
+        font-size: 24px;
+        width: 80%;
+        border-bottom: 2px solid #F00F24;
+    }
+    
+    .onemes {}
+    
+    .onemesin {
+        padding-top: 20px;
+        background: white;
+        width: 80%;
+        display: flex;
+        border: 1px solid #242424;
+        margin-top: 50px !important;
+    }
+    
+    .onemesleft {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .onemesviadiv {
+        flex: 2;
+    }
+    
+    .onemesviadiv>img {
+        height: 100px;
+        width: 100px;
+        border: 1px solid gray;
+    }
+    
+    .onemesname {
+        flex: 1;
+    }
+    
+    .onemesname>span {
+        color: #0F88EB;
+    }
+    
+    .onemesright {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .onemestime {
+        flex: 1;
+        font-size: 12px;
+        color: gray;
+    }
+    
+    .onemescontent {
+        flex: 3;
+    }
+    
+    .onemesrightrr {
+        flex: 1;
+    }
+    
+    .onemesrev>button {
+        background: #F00F24;
+        color: white;
+        border-radius: 5px;
+        margin: 20px 0;
+        border: 1px solid #242424;
+        padding: 2px 15px;
+    }
+    
+    #catsendmesbigdiv {
+        display: none;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 100000;
+        background: rgba(200, 200, 200, 0.2);
+    }
+    
+    #catsendmes {
+        position: relative;
+        border: 1px solid #242424;
+        height: 200px;
+        width: 300px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #catsendmestitle {
+        flex: 3;
+        background: #242424;
+        color: white;
+    }
+    
+    #close_catsendmes {
+        display: inline-block;
+        position: absolute;
+        line-height: 26px;
+        top: 0;
+        right: 10px;
+        font-weight: bold;
+    }
+    
+    #catsendmescontent {
+        flex: 12;
+    }
+    
+    #catsendmesbtndiv {
+        flex: 5;
+    }
+    
+    #catsendmesok {
+        background: #0F88EB;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid #242424;
+        padding: 2px 15px;
+    }

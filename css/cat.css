@@ -1,0 +1,338 @@
+#body {
+    background: #F3F3F3;
+}
+
+#backtohome {
+    font-weight: bolder;
+    position: fixed;
+    left: -90px;
+    bottom: 50px;
+    border: 1px solid #242424;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    background: white;
+}
+
+#backtohome span {
+    padding: 0 5px;
+}
+
+#back {
+    display: inline-block;
+    width: 90px;
+}
+
+#cattitle {
+    padding: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: url('../images/cattitilebak.jpg');
+}
+
+#cattitle>div {
+    height: 100px;
+}
+
+#cattitle>div>img {
+    height: 100px;
+}
+
+#cattitle_chat {
+    transition: background 1s;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgba(200, 200, 200, 0.8);
+}
+
+#cattitle_adm {
+    border: 1px solid black;
+    background: rgba(100, 100, 100, 0.5);
+}
+
+#catchatdiv {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    height: 400px;
+    width: 600px;
+    border: 1px solid #A9A9A9;
+    z-index: 1000;
+}
+
+#catchatdivtitle {
+    position: relative;
+    flex: 1;
+    background: #242424;
+    color: white;
+    cursor: move;
+}
+
+#catchatdivclose {
+    display: inline-block;
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    top: 10px;
+    right: 12px;
+    font-weight: bold;
+}
+
+#catchatdivcontent {
+    flex: 6;
+}
+
+#catchatdivinputdiv {
+    border-top: 5px dotted #F44A5A;
+    flex: 2;
+    display: flex;
+    padding-top: 5PX;
+}
+
+#catchatdivinput {
+    flex: 4;
+}
+
+#catchatdivinputsubdiv {
+    flex: 1;
+}
+
+#catcontent {
+    margin: 30px 0;
+    padding: 0 100px;
+}
+
+.notetype {
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.currentnotetype {
+    background: #F00F24 !important;
+    color: white;
+}
+
+#catcontentleft {
+    border: 1px solid black;
+    background: white;
+    padding: 0;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: sticky;
+    top: 5px;
+}
+
+#catcontentright {
+    padding-left: 20px;
+}
+
+.onenotediv {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background: white;
+}
+
+.onenotediv span {
+    margin: 0 20px 0 5px;
+}
+
+.onenotediv>div {
+    margin: 5px;
+}
+
+.onenotetype {
+    color: #B89EA6;
+}
+
+.onenotenickname {
+    color: #0F88EB;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.onenotenickname span {
+    margin-left: 20px;
+}
+
+.onenotevia {
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+}
+
+.onenotetitle {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.onenotecontent {
+    font-size: 16px;
+}
+
+.onenoteicon {
+    height: 16px;
+    width: 16px;
+}
+
+#createnote {
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #585858;
+    background: #0F88EB;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+#loginModal {
+    position: fixed;
+    top: 30px;
+    left: 35%;
+    border: 1px solid gray;
+}
+
+#catchatdivcontent {
+    overflow: scroll;
+}
+
+#loginModal {
+    height: 600px;
+}
+
+#canneladd {
+    margin-left: 100px;
+}
+
+.usercard {
+    color: #242424;
+    height: 250px;
+    width: 500px;
+    display: none;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: white;
+    border: 1px solid #242424;
+    border-radius: 0 20px 20px 20px;
+    z-index: 10000;
+}
+
+.usercardwait {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usercardleft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.usercardviadiv {
+    flex: 5;
+}
+
+.usercardviadiv>img {
+    height: 100px;
+    width: 100px;
+}
+
+.usercardname {
+    flex: 2;
+}
+
+.usercardcenter {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.usercardcenter>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+}
+
+.usercardcenter span {
+    color: #0F88EB;
+}
+
+.usercardright {
+    flex: 1;
+    flex-direction: column;
+}
+
+.usercardright>button {
+    background: #F00F24;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+    border: 1px solid #242424;
+    padding: 2px 5px;
+}
+
+#catsendmesbigdiv {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    background: rgba(200, 200, 200, 0.2);
+}
+
+#catsendmes {
+    position: relative;
+    border: 1px solid #242424;
+    height: 200px;
+    width: 300px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#catsendmestitle {
+    flex: 3;
+    background: #242424;
+    color: white;
+}
+
+#close_catsendmes {
+    display: inline-block;
+    position: absolute;
+    line-height: 26px;
+    top: 0;
+    right: 10px;
+    font-weight: bold;
+}
+
+#catsendmescontent {
+    flex: 12;
+}
+
+#catsendmesbtndiv {
+    flex: 5;
+}
+
+#catsendmesok {
+    background: #0F88EB;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #242424;
+    padding: 2px 15px;
+}

@@ -1,0 +1,196 @@
+#backtohome {
+    font-weight: bolder;
+    position: fixed;
+    left: -90px;
+    bottom: 50px;
+    border: 1px solid #242424;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    background: white;
+}
+
+#backtohome span {
+    padding: 0 5px;
+}
+
+#back {
+    display: inline-block;
+    width: 90px;
+}
+
+#userhometitle {
+    height: 100px;
+    border: 1px solid #242424;
+    background: url('../images/cattitilebak.jpg');
+}
+
+#userhomecontent {
+    padding: 100px 30px 250px 30px;
+    background: url('../images/userhomeback.jpg') no-repeat;
+    height: 750px;
+}
+
+#userhomeleft {
+    background: rgba(100, 100, 100, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #242424;
+    padding: 0;
+}
+
+#userhomeleft>div {
+    padding: 20px 0;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#userhomeright {
+    border: 1px solid #242424;
+    padding: 20px;
+    display: flex;
+    background: rgba(200, 200, 200, 0.2);
+    border-radius: 0 0 50px 0;
+}
+
+#userhomeright_l {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#userhomeviadiv>img {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #242424;
+}
+
+#userhomelistdiv {
+    flex: 1;
+}
+
+#userhome_name {
+    padding: 20px 0;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+#userhomelistdiv {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+#userhomelistdiv>div {
+    flex: auto;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#userhomelistdiv>div>span {
+    color: #F0162B;
+}
+
+.current {
+    background: rgba(25, 25, 25, 0.5);
+    color: white;
+}
+
+#userhomeright_change {
+    display: none;
+    border: 1px solid #242424;
+    padding: 20px;
+    background: rgba(200, 200, 200, 0.2);
+    flex-direction: column;
+    border-radius: 0 0 50px 0;
+}
+
+#userhomeright_change_top {
+    flex: 2;
+    display: flex;
+    height: 200px;
+}
+
+#changevia {
+    flex: 3;
+}
+
+#changenickname {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#changenickname>div {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#changenickname>div>input {
+    font-size: 14px;
+    padding: 2px 5px;
+}
+
+#userhomeright_change_bottom {
+    flex: 1;
+    margin-top: 50px;
+}
+
+#userhome_changebtn {
+    border: 1px solid #585858;
+    background: #0F88EB;
+    padding: 10px 30px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+}
+
+#changevia {
+    display: flex;
+}
+
+#changeviashowdiv {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#changeviashowdiv>img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #242424;
+}
+
+#updatavia {
+    flex: 1;
+    display: flex;
+}
+
+#j_upload_img_btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid #242424;
+    background: rgba(25, 25, 25, 0.5);
+    color: white;
+}
+
+#upload_img_wrap {
+    padding: 0;
+    list-style: none;
+}
+
+#upload_img_wrap img {
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #242424;
+}
